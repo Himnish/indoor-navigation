@@ -14,7 +14,7 @@ import threading
 from queue import Queue
 
 import pytesseract
-pytesseract.pytesseract.tesseract_cmd = '/Users/vihaankhare/anaconda3/bin/pytesseract'
+pytesseract.pytesseract.tesseract_cmd = '/Users/himnishjain/anaconda3/bin/pytesseract'
 
 import urllib.request as allib
 import ssl
@@ -23,8 +23,8 @@ import pyttsx3
 import cv2
 
 import tensorflow as tf
-sys.path.append('/Users/vihaankhare/Desktop/445 New Attempt/Blind-Assistance-Object-Detection-and-Navigation/models/research')
-sys.path.append('/Users/vihaankhare/Desktop/445 New Attempt/Blind-Assistance-Object-Detection-and-Navigation/models/research/slim')
+sys.path.append('/Users/himnishjain/Desktop/CS445_Final/Blind-Assistance-Object-Detection-and-Navigation/models/research')
+sys.path.append('/Users/himnishjain/Desktop/CS445_Final/Blind-Assistance-Object-Detection-and-Navigation/models/research/slim')
 
 from matplotlib import pyplot as plt
 from PIL import Image
