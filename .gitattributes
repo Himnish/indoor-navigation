@@ -1,0 +1,6 @@
+*.pb filter=lfs diff=lfs merge=lfs -text
+*.tar.gz filter=lfs diff=lfs merge=lfs -text
+*.mov filter=lfs diff=lfs merge=lfs -text
+models/research/object_detection/ssd_mobilenet_v2_coco_2018_03_29/frozen_inference_graph.pb filter=lfs diff=lfs merge=lfs -text
+models/research/object_detection/ssd_mobilenet_v2_coco_2018_03_29.tar.gz filter=lfs diff=lfs merge=lfs -text
+CS[[:space:]]445[[:space:]]Final[[:space:]]Project[[:space:]]Recording.mov filter=lfs diff=lfs merge=lfs -text
